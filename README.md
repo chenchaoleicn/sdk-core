@@ -4,9 +4,9 @@
 ## 开发
 在支付宝SDK包原设计上，增加了定制功能(对称加密、非对称加密、数据校验、http链路跟踪等)，并对其核心进行了重构。
 为了在设计多个SDK时进行代码复用，将其核心功能拆分出来，即为当前项目，
-将其业务相关部分拆分到xxx-sdk项目，可参考样例项目pay-sdk(https://github.com/chenchaolei/pay-sdk.git)。
+将其业务相关部分拆分到xxx-sdk项目，可参考样例项目pay-sdk https://github.com/chenchaolei/pay-sdk.git
 ## 使用
-下文中提到的接口thirdpay.trade.page.pay(对应的类为ThirdpayTradePagePayRequest)来自于pay-sdk项目
+下文中提到的接口thirdpay.trade.page.pay(对应的类为ThirdpayTradePagePayRequest)来自于pay-sdk项目 https://github.com/chenchaolei/pay-sdk.git
 ##### 1.常规方式(与支付宝SDK中请求方式类似)
 ```
     IThirdpayClient client = new DefaultThirdpayClient(
